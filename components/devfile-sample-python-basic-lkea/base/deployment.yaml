@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-lkea
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/bootstrap/integration-e2e-tenant/integ-app-zpgg/devfile-sample-python-basic-lkea@sha256:52f47b8151972adbfc3f1e0aa0819f101d5d67259e5b087099fced1a30a8477d
         name: my-python
         ports:
         - containerPort: 8081
