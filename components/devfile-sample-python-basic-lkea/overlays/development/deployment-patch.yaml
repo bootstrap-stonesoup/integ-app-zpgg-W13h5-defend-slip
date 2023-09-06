@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-lkea
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/bootstrap/integration-e2e-tenant/integ-app-zpgg/devfile-sample-python-basic-lkea@sha256:52f47b8151972adbfc3f1e0aa0819f101d5d67259e5b087099fced1a30a8477d
+        name: my-python
+        resources: {}
+status: {}
